@@ -8,7 +8,7 @@ client.on('ready', () => {
 client.on('guildMemberAdd', member => {
       if(member.guild.id !== '474567474940084234') return;
     setTimeout(function() {
-    member.guild.channels.find(r => r.id === '515891018088972290').send('*Welcome To* ***Fèarless*** *Server*..');
+    member.guild.channels.find(r => r.id === '515891018088972290').send('*Welcome To* ***Hamasat*** *Server*..');
 },3000);
 });
 
