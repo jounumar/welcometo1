@@ -6,9 +6,9 @@ client.on('ready', () => {
 });
 
 client.on('guildMemberAdd', member => {
-      if(member.guild.id !== '474567474940084234') return;
+      if(member.guild.id !== '511543836053471254') return;
     setTimeout(function() {
-    member.guild.channels.find(r => r.id === '515891018088972290').send('*Welcome To* ***Hamasat*** *Server*..');
+    member.guild.channels.find(r => r.id === '511550650723598373').send('*Welcome To* ***Rois*** *Server*..');
 },3000);
 });
 
