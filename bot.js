@@ -6,9 +6,9 @@ client.on('ready', () => {
 });
 
 client.on('guildMemberAdd', member => {
-      if(member.guild.id !== '511543836053471254') return;
+      if(member.guild.id !== '522751453865967628') return;
     setTimeout(function() {
-    member.guild.channels.find(r => r.id === '511550650723598373').send('Welcome to **Rois** server :champagne_glass:');
+    member.guild.channels.find(r => r.id === '522759753202663425').send('**Welcome To Arrogant Server .**');
 },3000);
 });
 
