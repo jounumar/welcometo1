@@ -6,9 +6,9 @@ client.on('ready', () => {
 });
 
 client.on('guildMemberAdd', member => {
-      if(member.guild.id !== '522751453865967628') return;
+      if(member.guild.id !== '330606813093429248') return;
     setTimeout(function() {
-    member.guild.channels.find(r => r.id === '522751453865967630').send('**Welcome To Arrogant Server .**');
+    member.guild.channels.find(r => r.id === '530071655574274095').send('** - Welcome To Hamas Server. :heart: **');
 },3000);
 });
 
